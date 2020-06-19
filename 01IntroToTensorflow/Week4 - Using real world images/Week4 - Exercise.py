@@ -1,4 +1,5 @@
 import tensorflow as tf
+print(tf.__version__)
 import os
 import zipfile
 from os import path, getcwd, chdir
