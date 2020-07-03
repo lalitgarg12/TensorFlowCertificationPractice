@@ -13,6 +13,7 @@ X_test = X_test / 255.
 plt.imshow(X_train[0], cmap="binary")
 plt.axis('off')
 plt.show()
+
 print(y_train)
 print(X_valid.shape)
 print(X_test.shape)
